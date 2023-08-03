@@ -20,7 +20,7 @@ const config = createConfig({
         defaultNetwork: chain.id,
         connect: {
           app: 'Demo',
-          walletAppURL: 'https://sequence.app', // We should not have to explicitely specify the Sequence Wallet URL
+          // walletAppURL: 'https://sequence.app', // We should not have to explicitely specify the Sequence Wallet URL
         },
       },
     }),
